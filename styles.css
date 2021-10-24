@@ -2275,7 +2275,11 @@ Cart Area Media Query
                    .bar span 
                              {
                                  margin-left: 5vh!important;
-                            }               
+                            }   
+                   .login_sigup
+                                {
+                                  margin-top: 65px!important;
+                                }                     
 
                 }
 
