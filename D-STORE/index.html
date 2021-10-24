@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D-STORE</title>
+
+<link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link  rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------- -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- -------------------------------------- -->
+</head>
+<body>
+  <!-- ------------------------NAVBAR START---------------------- -->
+<div class="navbar-main">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color:	#292b2c!important;">
+        <div class="container-fluid text-md-center logo-img"  >
+            <a href="./index.html" class="navbar-brand text-white mx-md-5"><img src="./images/logo.png" style="width: 180px; border-radius: 2px 10px;"  alt="logo"></a>
+            <button type="button" class="navbar-toggler bar" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse m-3 mx-md-5" style="font-size: large;">
+                <ul class="nav navbar-nav  list">
+                    
+                  <li class="nav-item mx-md-3">
+                    <a href="./index.html" class="nav-link  text-white">Home</a>
+                </li>
+
+                  <li class="nav-item dropdown mx-md-3 " style="font-size: medium ;">
+                    <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown">Mobiles</a>
+                    <div class="dropdown-menu" style="font-size: medium ;background-color: #292b2c!important;">
+                        <a href="./mobiles.html" class="dropdown-item  text-white" >Iphone Corner</a>
+                        <a href="./mobiles.html" class="dropdown-item  text-white">Realme Store</a>
+                        <a href="./mobiles.html" class="dropdown-item  text-white">One Plus Store</a>
+                        <a href="./mobiles.html" class="dropdown-item  text-white">Samsung Store</a>
+                        <a href="./mobiles.html" class="dropdown-item  text-white">Vivo Store</a>
+                        <a href="./mobiles.html" class="dropdown-item  text-white">LG Store</a>
+                        <a href="./mobiles.html" class="dropdown-item  text-white">Lenovo Store</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown mx-md-3 " style="font-size: medium ;">
+                  <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown">Electronics</a>
+                  <div class="dropdown-menu" style="font-size: medium ;background-color: #292b2c!important;">
+                      <a href="#" class="dropdown-item  text-white" >Mens Watch</a>
+                      <a href="#" class="dropdown-item  text-white">Womens Watch</a>
+                      <a href="#" class="dropdown-item  text-white">Earphone</a>
+                      <a href="#" class="dropdown-item  text-white">Bluetooth Speakers</a>
+                      <a href="#" class="dropdown-item  text-white">Neckband</a>
+                      <a href="#" class="dropdown-item  text-white">Electric Appliances</a>
+                  </div>
+              </li>    
+
+              
+              <li class="nav-item dropdown mx-md-3 " style="font-size: medium ;">
+                <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown">Fashion</a>
+                <div class="dropdown-menu" style="font-size: medium ;background-color: #292b2c!important;">
+                    <a href="#" class="dropdown-item  text-white" >Men's Clothing</a>
+                    <a href="#" class="dropdown-item  text-white">Women's Clothing</a>
+                    <a href="#" class="dropdown-item  text-white">Boy's Clothing</a>
+                    <a href="#" class="dropdown-item  text-white">Girl's Clothing</a>
+                    <a href="#" class="dropdown-item  text-white">Men's Accessories</a>
+                    <a href="#" class="dropdown-item  text-white">Women's Accessories</a>
+                    <a href="#" class="dropdown-item  text-white">Men's Footwear</a>
+                    <a href="#" class="dropdown-item  text-white">Women's Footwear</a>
+                </div>
+            </li>   
+
+                    <li class="nav-item mx-md-3">
+                        <a href="./index.html#single d1" class="nav-link  text-white">New releases</a>
+                    </li>
+                    </li>
+                    <li class="nav-item mx-md-3">
+                        <a href="#" class="nav-link  text-white">Todays Deal</a>
+                    </li>
+                    </li>
+                    
+                    <li class="nav-item dropdown mx-md-3 " style="font-size: medium ;">
+                      <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown">Laptop/Accessories</a>
+                      <div class="dropdown-menu" style="font-size: medium ;background-color: #292b2c!important;">
+                          <a href="#" class="dropdown-item  text-white" >Macbook</a>
+                          <a href="#" class="dropdown-item  text-white">Laptop Store</a>
+                          <a href="#" class="dropdown-item  text-white">Mouse</a>
+                          <a href="#" class="dropdown-item  text-white">Keyboard</a>
+                          <a href="#" class="dropdown-item  text-white">Computer Parts</a>
+                          <a href="#" class="dropdown-item  text-white">Speakers</a>
+                          <a href="#" class="dropdown-item  text-white">Printer</a>
+                      </div>
+                  </li>   
+                    
+                    
+                    <li class="nav-item dropdown mx-md-3 " style="font-size: medium ;">
+                      <a href="#" class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown">Home/Kitchen</a>
+                      <div class="dropdown-menu" style="font-size: medium ;background-color: #292b2c!important;">
+                          <a href="#" class="dropdown-item  text-white" >Juice Mixer</a>
+                          <a href="#" class="dropdown-item  text-white">Oven</a>
+                          <a href="#" class="dropdown-item  text-white">Grinder</a>
+                          <a href="#" class="dropdown-item  text-white">Knifes</a>
+                          <a href="#" class="dropdown-item  text-white">Kitchen products</a>
+                      </div>
+                  </li>   
+                   
+                  <li class="nav-item mx-md-3" style="display: flex;">
+                    <a href="#" class="nav-link  text-white"><img src="./images/cart.png" alt="Cart" style="width: 20px; height: 20;"></a>
+                    <p class="mt-3 text-white">Cart</p>
+                </li>
+
+                </ul>
+                <ul class="nav navbar-nav ms-md-auto list" style="font-size: large;">
+                  <li class="nav-item dropdown ">
+                      <a href="#" class="nav-link dropdown-toggle text-white me-5" data-bs-toggle="dropdown">Admin</a>
+                      <div class="dropdown-menu dropdown-menu-end" style="font-size: medium;background-color: #292b2c!important;">
+                          <a href="#" class="dropdown-item text-white">Reports</a>
+                          <a href="#" class="dropdown-item text-white">Settings</a>
+                          <div class="dropdown-divider"></div>
+                          <a href="#" class="dropdown-item  text-white">Logout</a>
+                      </div>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </nav>    
+
+  <!-- ------------------------NAVBAR END---------------------- -->
+</div>
+  <!-- ------------------------NAVBAR END---------------------- -->
+
+
+
+ <!-- Hero -->
+ <div class="hero">
+  <div class="glide" id="glide_1">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+          <div class="hero__center">
+            <div class="hero__left me-sm-5">
+              <span class="">BIG DIWALI SALE 2021 !!</span>
+              <h1 class="">BOXES OF HAPPINESS FOR EVERY HOME !!</h1>
+              <p>bIGGEST SAVING OF THE YEAR !!</p>
+              <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+            </div>
+            <div class="hero__right">
+              <div class="hero__img-container">
+                <img class="banner_01" src="./images/p1.jpg" alt="banner2" style="border-radius: 2vh;width: 80vh; height: 40vh; "/>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        <li class="glide__slide">
+          <div class="hero__center">
+            <div class="hero__left me-sm-5">
+              <span>New Inspiration 2020</span>
+              <h1>What makes you feel jealous !</h1>
+              <p>Trending from clothing style collection !!</p>
+              <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+            </div>
+            <div class="hero__right">
+              <img class="banner_02" src="./images/i1.jpg" alt="banner2" style="height: 80vh;"/>
+            </div>
+          </div>
+        </li>
+     
+        <li class="glide__slide">
+          <div class="hero__center">
+            <div class="hero__left">
+              <span>New Inspiration 2020</span>
+              <h1>PHONES MADE FOR YOU!</h1>
+              <p>Trending from mobile and headphone style collection</p>
+              <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+            </div>
+            <div class="hero__right">
+              <img class="banner_02" src="./images/banner_01.png" alt="banner2" style="height: 80vh;"/>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="glide__bullets" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=0"></button>
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+    </div>
+
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-arrow-left2"></use>
+        </svg>
+      </button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-arrow-right2"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+</header>
+<!-- End Header -->
+
+<!-- ---------------------moving marque start---------- -->
+<header-top>
+<marquee direction="Right" style="background: #00ffff;font-weight:bold;"><b>GREAT INDIAN FESTIVAL SALE !!  &nbsp;GREAT INDIAN FESTIVAL SALE !!  &nbsp;GREAT INDIAN FESTIVAL SALE !!  &nbsp;   GREAT INDIAN FESTIVAL SALE !!  &nbsp;</b></marquee>
+</header-top>
+<!-- ---------------------moving marque end---------- -->
+
+<!-- ---------------main images start---------- -->
+
+<div class="container-fluid">
+<a href="#"><img src="./main_images/d7.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+</a>
+</div>
+<div class="container-fluid">
+<a href="#"><img src="./main_images/d10.jpg" title="click me" alt="street" title="street photography" class="img-rounded rounded my-2  img-fluid">
+</a>
+</div>
+
+
+
+<div class="container-fluid ">
+<div class="row  " id="photos">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d8.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+                 
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d9.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+</div>
+</div>
+
+<div class="container-fluid ">
+<div class="row   mt-5" id="photos">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d6.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+                 
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d0.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+</div>
+</div>
+
+<div class="container-fluid ">
+<div class="row   mt-5" id="photos">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d5.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+                 
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d4.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+</div>
+</div>
+
+<div class="container-fluid" id="single d1">
+<a href="#"><img src="./main_images/d1.jpg" title="click me" alt="street" title="street photography" class="img-rounded rounded my-2  img-fluid">
+</a>
+</div>
+
+
+<div class="container-fluid ">
+<div class="row   mt-5" id="photos">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d2.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+                 
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 " style="margin-top: 10px;">
+                    <a href="#"><img src="./main_images/d3.jpg" title="click me" alt="street" title="street photography" class="rounded my-2  img-fluid">
+                        </a>
+                  </div>
+</div>
+</div>
+
+
+
+<!-- ---------------main images end---------- -->
+
+
+
+<!-- -----------------------clothing start------------------ -->
+
+<div class="container" style="margin-top: 10px; background: #f1dfe7; border-radius: 20px;">
+
+<div class="row" style="margin: 10px 5px;">
+
+<div class="col-md-4 col-sm-6" >
+<div class="thumbnail" style="margin: 5px;">
+  <a href="#">
+    <img src="./images/c1.jpg" alt="Lights" style="width:100%;margin: 5px;" class="img-circle">
+    <div class="caption clothing text-center">
+      <h4 class="text-center "> MEN'S CLOTHING STYLE'S</h4>
+                        <a href="#">  <button type="button" class="btn " style="color: #fff;">SHOP NOW</button>
+                        </a>
+    </div>
+  </a>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-6">
+<div class="thumbnail" style="margin: 5px;">
+  <a href="#">
+    <img src="./images/c2.jpg" alt="Lights" style="width:100%;margin: 5px;" class="img-circle">
+    <div class="caption clothing text-center">
+      <h4 class="text-center ">WOMEN'S CLOTHING STYLE'S</h4>
+                        <a href="#">  <button type="button" class="btn " style="color: #fff;">SHOP NOW</button>
+                        </a>
+    </div>
+  </a>
+</div>
+</div>
+
+
+<div class="col-md-4 col-sm-6">
+<div class="thumbnail" style="margin: 5px;">
+  <a href="#">
+    <img src="./images/c3.jpg" alt="Lights" style="width:100%; margin: 5px;" class="img-circle">
+    <div class="caption clothing text-center">
+      <h4 class="text-center ">GIRL'S CLOTHING STYLE'S</h4>
+                        <a href="#">  <button type="button" class="btn " style="color: #fff;">SHOP NOW</button>
+                        </a>
+    </div>
+  </a>
+</div>
+</div>
+
+</div>
+</div>
+<!-- -----------------------clothing end------------------ -->
+
+<div class="container" style="margin-top: 15px;">
+<img src="./main_images/dd.jpg" alt="image">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Main -->
+<main id="main">
+<div class="container">
+  <!-- Collection -->
+  <section id="collection" class="section collection">
+    <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
+      <div class="collection__box">
+        <div class="img__container">
+          <img class="collection_02" src="./images/collection_02.png" alt="">
+        </div>
+        <div class="collection__content">
+          <div class="collection__data">
+            <span>New Colors Introduced</span>
+            <h1>HEADPHONES</h1>
+            <a href="#shop">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="collection__box">
+        <div class="img__container">
+          <img class="collection_01" src="./images/collection_01.png" alt="">
+        </div>
+        <div class="collection__content">
+          <div class="collection__data">
+            <span>Phone Device Presets</span>
+            <h1>SMARTPHONES</h1>
+            <a href="#">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="category__section section" id="category">
+    <div class="tab__list">
+      <div class="title__container tabs">
+        <div class="section__titles category__titles ">
+          <div class="section__title filter-btn active" data-id="All Products">
+            <span class="dot"></span>
+            <h1 class="primary__title">All Products</h1>
+          </div>
+        </div>
+        <div class="section__titles">
+          <div class="section__title filter-btn" data-id="Trending Products">
+            <span class="dot"></span>
+            <h1 class="primary__title">Trending Products</h1>
+          </div>
+        </div>
+
+        <div class="section__titles">
+          <div class="section__title filter-btn" data-id="Special Products">
+            <span class="dot"></span>
+            <h1 class="primary__title">Special Products</h1>
+          </div>
+        </div>
+
+        <div class="section__titles">
+          <div class="section__title filter-btn" data-id="Featured Products">
+            <span class="dot"></span>
+            <h1 class="primary__title">Featured Products</h1>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
+      <div class="category__center"></div>
+    </div>
+</div>
+</section>
+
+<!-- Facility Section -->
+<section class="facility__section section" id="facility">
+  <div class="container">
+    <div class="facility__contianer" data-aos="fade-up" data-aos-duration="1200">
+      <div class="facility__box">
+        <div class="facility-img__container">
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-airplane"></use>
+          </svg>
+        </div>
+        <p>FREE SHIPPING WORLD WIDE</p>
+      </div>
+
+      <div class="facility__box">
+        <div class="facility-img__container">
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-credit-card-alt"></use>
+          </svg>
+        </div>
+        <p>100% MONEY BACK GUARANTEE</p>
+      </div>
+
+      <div class="facility__box">
+        <div class="facility-img__container">
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-credit-card"></use>
+          </svg>
+        </div>
+        <p>MANY PAYMENT GATWAYS</p>
+      </div>
+
+      <div class="facility__box">
+        <div class="facility-img__container">
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-headphones"></use>
+          </svg>
+        </div>
+        <p>24/7 ONLINE SUPPORT</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+<!-- Testimonial Section -->
+<section class="section testimonial" id="testimonial">
+  <div class="testimonial__container">
+    <div class="glide" id="glide_4">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <div class="testimonial__box">
+              <div class="client__image">
+                <img src="./images/j1.jpg" alt="profile">
+              </div>
+              <p>“I treat every problem that I hear about from a customer as an opportunity to improve,” Bezos said in the new book, “Invent & Wander: The Collected Writings of Jeff Bezos,”
+                 which is a collection of Bezos’ writings, including his shareholder letters and speeches.</p>
+              <div class="client__info">
+                <h3>Jeff Bezos</h3>
+                <span>Founder at Amazon</span>
+              </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="testimonial__box">
+              <div class="client__image">
+                <img src="./images/e1.jpg" alt="profile">
+              </div>
+              <p>“Whoever said that money can’t buy happiness simply didn’t know where to go shopping.”</p>
+              <div class="client__info">
+                <h3>Emma Watson</h3>
+                <span>Activist</span>
+              </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="testimonial__box">
+              <div class="client__image">
+                <img src="./images/profile3.jpg" alt="profile">
+              </div>
+              <p>“Happiness is not in money, but in shopping.”</p>
+              <div class="client__info">
+                <h3>Kiara Advani</h3>
+                <span>Bollywood Actress</span>
+              </div>
+            </div>
+
+          </li>
+          <li class="glide__slide">
+            <div class="testimonial__box">
+              <div class="client__image">
+                <img src="./images/profile4.jpg" alt="">
+              </div>
+              <p>“Once again, we come to the Holiday Season, 
+                a deeply religious time that each of us observes, in his own way, by going to the mall of his choice.”</p>
+              <div class="client__info">
+                <h3>John decrooz</h3>
+                <span>Founder of Aspiere </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="glide__bullets" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="=0"></button>
+        <button class="glide__bullet" data-glide-dir="=1"></button>
+        <button class="glide__bullet" data-glide-dir="=2"></button>
+        <button class="glide__bullet" data-glide-dir="=3"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--New Section  -->
+<section class="section news" id="news">
+  <div class="container">
+    <div class="title__container">
+      <div class="section__titles">
+        <div class="section__title active">
+          <span class="dot"></span>
+          <h1 class="primary__title">Phone News</h1>
+        </div>
+      </div>
+    </div>
+    <div class="news__container">
+      <div class="glide" id="glide_5">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="new__card">
+                <div class="card__header">
+                  <img src="./images/news1.jpg" alt="">
+                </div>
+                <div class="card__footer">
+                  <h3>Everything in a single store makes easy !!</h3>
+                  <span>Aishvarya Mandal</span>
+                  <p> “The odds of going to the store for a loaf of bread and coming out with only a loaf of bread are three billion to one.”</p>
+                  <a href="#"><button>Read More</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="new__card">
+                <div class="card__header">
+                  <img src="./images/news2.jpg" alt="">
+                </div>
+                <div class="card__footer">
+                  <h3>Family Zone !!</h3>
+                  <span>Armaan khan</span>
+                  <p>Shopping has become a happy experience that we will seldom want to forego.</p>
+                  <a href="#"><button>Read More</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="new__card">
+                <div class="card__header">
+                  <img src="./images/news3.jpg" alt="">
+                </div>
+                <div class="card__footer">
+                  <h3>Styling White Shirts After A Cool Day</h3>
+                  <span>soozy </span>
+                  <p>If time were a color, I bet it would be a tasteful off-white.</p>
+                  <a href="#"><button>Read More</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="new__card">
+                <div class="card__header">
+                  <img src="./images/news4.jpg" alt="">
+                </div>
+                <div class="card__footer">
+                  <h3>Dashing , Cool style makes a women perfect . </h3>
+                  <span>Tommy Cooper</span>
+                  <p> “I went window shopping today! I bought four windows.”</p>
+                  <a href="#"><button>Read More</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="new__card">
+                <div class="card__header">
+                  <img src="./images/news5.jpg" alt="">
+                </div>
+                <div class="card__footer">
+                  <h3>ONLINE STORE !!</h3>
+                  <span>Rastogi</span>
+                  <p>If time were a color, I bet it would be a tasteful off-white.</p>
+                  <a href="#"><button>Read More</button></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- NewsLetter -->
+<section class="section newsletter" id="contact">
+  <div class="container">
+    <div class="newsletter__content">
+      <div class="newsletter__data">
+        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+        <p>A short sentence describing what someone will receive by subscribing</p>
+      </div>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address" class="newsletter__email">
+        <a class="newsletter__link" href="#">subscribe</a>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- End Main -->
+
+<!-- Footer -->
+<footer id="footer" class="section footer">
+<div class="container">
+  <div class="footer__top">
+    <div class="footer-top__box">
+      <h3>EXTRAS</h3>
+      <a href="#">Brands</a>
+      <a href="#">Gift Certificates</a>
+      <a href="#">Affiliate</a>
+      <a href="#">Specials</a>
+      <a href="#">Site Map</a>
+    </div>
+    <div class="footer-top__box">
+      <h3>INFORMATION</h3>
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Site Map</a>
+    </div>
+    <div class="footer-top__box">
+      <h3>MY ACCOUNT</h3>
+      <a href="#">My Account</a>
+      <a href="#">Order History</a>
+      <a href="#">Wish List</a>
+      <a href="#">Newsletter</a>
+      <a href="#">Returns</a>
+    </div>
+    <div class="footer-top__box">
+      <h3>CONTACT US</h3>
+      <div>
+        <span>
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-location"></use>
+          </svg>
+        </span>
+        wright town, jabalpur MP
+      </div>
+      <div>
+        <span>
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+          </svg>
+        </span>
+        dofficial@store.com
+      </div>
+      <div>
+        <span>
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-phone"></use>
+          </svg>
+        </span>
+        456-456-4512
+      </div>
+      <div>
+        <span>
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+          </svg>
+        </span>
+        Madhya Pradesh,  INDIA
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer__bottom">
+  <div class="footer-bottom__box">
+
+  </div>
+  <div class="footer-bottom__box">
+
+  </div>
+</div>
+</div>
+</footer>
+<!-- End Footer -->
+
+<!-- PopUp -->
+<div class="popup hide__popup">
+<div class="popup__content">
+  <div class="popup__close">
+    <svg>
+      <use xlink:href="./images/sprite.svg#icon-cross"></use>
+    </svg>
+  </div>
+  <div class="popup__left">
+    <div class="popup-img__container">
+      <img class="popup__img" src="./images/popup.jpg" alt="popup">
+    </div>
+  </div>
+  <div class="popup__right">
+    <div class="right__content">
+      <h1>Get Discount <span>30%</span> Off</h1>
+      <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+      </p>
+      <form action="#">
+        <input type="email" placeholder="Enter your email..." class="popup__form">
+        <a href="#">Subscribe</a>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Go To -->
+
+<a href="#header" class="goto-top scroll-link">
+<svg>
+  <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+</svg>
+</a>
+
+
+<!-- Glide Carousel Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+<!-- Animate On Scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="./js/products.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/slider.js"></script>
+
+
+
+
+<script>
+$(document).ready(function(){
+  var wWidth = $(window).width();
+  if(wWidth > 768){
+  $("ul.bts-nav li").hover(function(){
+     $(this).children("ul").slideToggle(400);
+  });
+}
+else{
+  $("ul.bts-nav li a").click(function(){
+     $(this).next("ul").slideToggle(400);
+  });
+}
+});
+</script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
